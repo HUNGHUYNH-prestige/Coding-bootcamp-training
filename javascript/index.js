@@ -40,7 +40,9 @@ function main(){
 main();
 
 
+// -- -- --
 
+// other solutions
 function the_snail_in_the_well() {
 
     function main() {
