@@ -1,0 +1,49 @@
+#gameOver {
+    display: none;
+}
+
+#gameContainer {
+    width : 500px;
+    height : 500px;
+    /* vertical = 0  and horizontal = auto */
+    margin : 0 auto;
+    display : flex;
+    flex-wrap : wrap;
+    flex-direcion : row;
+    justify-content : center;
+
+}
+
+.square {
+    border : 1px solid black;
+    /* what is resize in css ? */
+    /* resize : none => no one can resize the element */
+    /* resize : both => user can resize the element horizontal and vertical with the mouse */
+    resize : both;
+    width : 30%;
+    height : 35%;
+
+    display : flex;
+    justify-content : center;
+    align-items : center;
+
+}
+
+/* Learn the different way to grab css selector */
+/* .square p => selects all elements with p that is a descendant of an element with class square */
+.square p {
+    font-size : 80px;
+    font-weight : bold;
+    text-align : center;
+    background-color: aqua;
+}
+
+h1 {
+    text-align : center;
+
+}
+
+.notClicked:hover {
+    background-color: lightgreen;
+
+}
